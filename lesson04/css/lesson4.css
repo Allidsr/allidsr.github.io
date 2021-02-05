@@ -102,18 +102,20 @@ h2 {text-align: center;}
 .hero-ph {
 	margin: 10px auto;
 	border: 1px solid #333;
-	width: 98%;
 	height: 150px;
 }
 
 .weathersummary {
-	display: block;
-	margin: 10px auto;
 	border: 1px dashed #000;
 	padding: 15px;
 	background-color: #FFF2F1;
 	color: #07090F;
+	font-size: 14px;
 }
+p {
+	padding: 0;
+	letter-spacing: 0.05rem;
+	line-height: 1;}
 
 
 /* Larger viewports */
