@@ -8,12 +8,12 @@ main, footer {
 header,
 main,
 footer {
-	max-width: 767px;
+	max-width: 960px;
     margin: 0 auto;
 }
  nav {
 	margin: 0 auto;
-	max-width: 760px;
+	max-width: 960px;
 	background-color: #07090F;
 }
 .navigation {
@@ -90,6 +90,33 @@ header img {
 	background-color: #FFF2F1;
 	color: #07090F;
 }
+
+h2 {text-align: center;}
+
+.herodiv {
+	position: relative;
+	margin: 10px auto;
+	width: 960px;
+	height: 300px;
+}
+.hero-ph {
+	margin: 10px auto;
+	border: 1px solid #333;
+	width: 98%;
+	height: 250px;
+}
+
+.weathersummary {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	background: #FFF2F1;
+	border: 1px solid #000;
+	padding: .5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+}
+
 
 /* Larger viewports */
 @media only screen and (min-width: 37.5em) {
