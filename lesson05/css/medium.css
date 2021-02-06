@@ -97,7 +97,7 @@
 		display:block;
 		margin: 30px auto;
 		padding: 15px;
-		background-color: #7FB7BE;
+		background-color: #FFF2F1;
 		color: #07090F;
 		text-align: left;}
 	.img-article {
@@ -106,6 +106,10 @@
         height: 300px;
         margin-right: 30px;
 		margin: 1em;
+		box-shadow: 0 0 30px #111;
 	}
-    
+    .contact {
+		grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+	}
 }

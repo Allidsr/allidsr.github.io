@@ -46,7 +46,7 @@ header, footer {
 .responsive li {
 	display: block;
 }
-.active {
+li .active {
 	color: #DACC3E;
 }
 
@@ -95,7 +95,8 @@ header img {
 	color: #07090F;
 }
 
-h2 {text-align: center;}
+h2 {text-align: center;
+}
 
 .herodiv {
 	position: relative;
@@ -114,6 +115,7 @@ main img {
 }
 
 .weathersummary {
+	display: block;
 	border: 1px dashed #000;
 	padding: 15px;
 	background-color: #FFF2F1;
@@ -123,7 +125,8 @@ main img {
 p {
 	padding: 0;
 	letter-spacing: 0.05rem;
-	line-height: 1;}
+	line-height: 1;
+    font-size: 14px;}
 .flex {
 	display: none;
 }
@@ -131,11 +134,23 @@ p {
 	display:block;
 	margin: 30px auto;
 	padding: 15px;
-	background-color: #7FB7BE;
+	background-color: #FFF2F1;
 	color: #07090F;
-	text-align: left;}
+	text-align: left;
+    border: solid #CDCDCD 1px; }
 .img-article {
 	max-width: 100%;
+}
+.contact {
+	grid-template-columns: 1fr;
+	grid-gap: 100px;
+	background-color: #07090F;
+	color: white;
+}
+.paragraphF {
+	margin: 0 auto;
+    max-width: 100%;
+    padding: 1.5em 10em;
 }
 
 
