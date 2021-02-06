@@ -163,7 +163,7 @@ p {
 		width: 98%;
 		height: 220px;
 	}
-	
+
 	.weathersummary {
 		position: absolute;
 		top: 20px;
@@ -216,6 +216,7 @@ p {
 		width: 98%;
 		height: 282px;
 	}
+	
 	.weathersummary {
 		position: absolute;
 		top: 20px;

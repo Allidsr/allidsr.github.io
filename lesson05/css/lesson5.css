@@ -1,0 +1,142 @@
+header, nav {
+	font-size: 14px;
+	font-family: "Montserrat", Lucida Sans Unicode, sans-serif;
+}
+main, footer {
+    font-family: "Lora", Helvetica, sans-serif;
+}
+
+main
+ {
+	max-width: 960px;
+    margin: 0 auto;
+}
+header, footer {
+	max-width: 1096px;
+    margin: 0 auto;
+}
+ nav {
+	margin: 0 auto;
+	max-width: 1096px;
+	background-color: #07090F;
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #343E3D;
+	background-color: #FFF2F1;
+}
+.responsive li {
+	display: block;
+}
+.active {
+	color: #DACC3E;
+}
+
+	body {
+	padding: 0;
+	margin: 0;
+}
+
+header, footer {
+	background-color: #7FB7BE;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #FFF2F1;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+.contentbox {
+	display:block;
+	margin: 10px auto;
+	border: 1px dashed #000;
+	padding: 15px;
+	background-color: #FFF2F1;
+	color: #07090F;
+}
+
+h2 {text-align: center;}
+
+.herodiv {
+	position: relative;
+	margin: 10px auto;
+	width: 375px;
+	height: 150px;
+}
+.hero-ph {
+	margin: 10px auto;
+	border: 1px solid #333;
+	width: 98%;
+	height: 110px;
+}
+main img {
+	max-width: 100%;
+}
+
+.weathersummary {
+	border: 1px dashed #000;
+	padding: 15px;
+	background-color: #FFF2F1;
+	color: #07090F;
+	font-size: 14px;
+}
+p {
+	padding: 0;
+	letter-spacing: 0.05rem;
+	line-height: 1;}
+.flex {
+	display: none;
+}
+.article {
+	display:block;
+	margin: 30px auto;
+	padding: 15px;
+	background-color: #7FB7BE;
+	color: #07090F;
+	text-align: left;}
+.img-article {
+	max-width: 100%;
+}
+
+
+ 
