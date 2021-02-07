@@ -34,7 +34,7 @@
 	}
 	.hero-ph {
 		margin: 10px auto;
-		border: 1px solid #333;
+		/*border: 1px solid #333;*/
 		width: 98%;
 		height: 282px;
 	}
@@ -108,20 +108,27 @@
 		margin: 1em;
 		box-shadow: 0 0 30px #111;
 	}
-	
 	.contact {
-		margin: 0 auto;
-       max-width: 100%;
-       padding: 1.5em 10em;
+       	max-width: 100%;
+       	padding: 1.5em;
+	}
+	.map {
+		display: inline-block;
+		margin: 5px;
+
+	}
+	.contact-data {
+		display: inline-block;
+		margin: 5px;
 	}
 	.social {
-      display: block;
-	  text-align: center;
-	}
-	.contact {
-		display: block;
-		grid-template-columns: 1fr 1fr;
-        grid-gap: 100px;
+		display: inline-block;
+		text-align: center;
+	  }
+	.paragraphF {
+		margin: 0 auto;
+		max-width: 100%;
+		padding: 1.5em 10em;
 	}
 }
 

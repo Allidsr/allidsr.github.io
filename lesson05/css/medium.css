@@ -34,7 +34,7 @@
 	}
 	.hero-ph {
 		margin: 10px auto;
-		border: 1px solid #333;
+		/*border: 1px solid #333;*/
 		width: 98%;
 		height: 220px;
 	}
@@ -108,8 +108,22 @@
 		margin: 1em;
 		box-shadow: 0 0 30px #111;
 	}
-    .contact {
-		grid-template-columns: 1fr 1fr;
-        grid-gap: 100px;
+	.contact {
+		margin: 0 auto;
+       	max-width: 100%;
+       	padding: 1.5em;
 	}
+	.map {
+		display: inline-block;
+		margin: 5px 20px;
+
+	}
+	.contact-data {
+		display: inline-block;
+		margin: 5px 20px;
+	}
+	.social {
+		display: inline-block;
+		text-align: center;
+	  }
 }
