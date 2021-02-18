@@ -1,19 +1,19 @@
-h1{
+h1 {
     text-align: center;
 }
 
-img{
+img picture {
     display: block;
-    align-items: center;
+    padding: 3px;
     margin: 0 auto;
-    padding: 5px;
+    
 }
 
-img[data-src]{
+img[data-src] {
     filter: blur(0.2em);
 }
 
-img{
+img {
     filter: blur(0em);
-    transition: filter 2s;
+    transition: filter 1s;
 }
