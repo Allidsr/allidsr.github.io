@@ -2,11 +2,11 @@ h1 {
     text-align: center;
 }
 
-img picture {
+img {
     display: block;
     padding: 3px;
     margin: 0 auto;
-    
+    align-items: center;  
 }
 
 img[data-src] {
