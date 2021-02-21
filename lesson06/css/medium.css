@@ -123,4 +123,9 @@
 		display: inline-block;
 		text-align: center;
 	  }
+	  .gallery-img {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -155,3 +155,28 @@ picture.hero-ph {
     width: 96%;
     margin: 0 2%
 }
+.gallery-img {
+    margin: 0 auto;
+    display: grid;
+    
+}
+
+.gallery-img picture{
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-img picture img{
+    width: 90%;
+}
+figcaption{
+    font-family: "Montserrat",sans-serif;
+}
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
