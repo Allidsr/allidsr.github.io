@@ -1,0 +1,65 @@
+h1, h2 {
+    font-family: "Montserrat", Lucida Sans Unicode, sans-serif;
+    text-align: center;
+    color: #07090F;
+}
+body {
+    font-family:"Lora", Helvetica, sans-serif;
+}
+main {
+    margin: auto;
+    width: 95%;
+}
+div.cards {
+    margin: 0 auto;
+    display: block;
+    gap:.5em;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    width:fit-content;
+    padding: 1em;
+}
+.card {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #7FB7BE;
+}
+img {
+    margin: auto;
+    max-width: 75%;
+}
+footer {
+    background-color: #07090F;
+    text-align: center;
+    padding: 1em;
+    width: 95%;
+    margin: auto;
+    color: white;
+}
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+    div.cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .5em;
+    }
+    .card {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 70em) {
+    div.cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+
+
+
+
+
