@@ -22,7 +22,7 @@ const requestURL =
       pop.textContent = "Population: " + towns[i].currentPopulation;
       arf.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
       image.setAttribute("src", towns[i].photo);
-      image.setAttribute("alt", (towns[i].name));
+      image.setAttribute("alt", towns[i].name);
 
 
       card.appendChild(h2);

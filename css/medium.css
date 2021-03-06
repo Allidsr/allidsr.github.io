@@ -1,12 +1,10 @@
-@media only on screen and (min-width: 32.5rem) {
+@media only screen and (min-width: 32.5em) {
+body {
+    width: 80%;
+}
 
-    header img {
-        float: right;
-        border-radius: 0 10px 0 0;
-    }
-    
-    h1 {
-        font-size: 2.5rem;}
-     h2 {
-        font-size: 1.5rem;}
+header img {
+    padding-right: 16px;
+    float: right;
+}
 }

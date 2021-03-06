@@ -121,9 +121,7 @@ p {
 	line-height: 1;
     font-size: 14px;
 }
-.flex {
-	display: none;
-}
+
 .article {
 	display:block;
 	margin: 30px auto;
@@ -154,4 +152,24 @@ picture.hero-ph {
     display: block;
     width: 96%;
     margin: 0 2%
+}
+div.cards {
+    margin: 0 auto;
+    display: block;
+    gap:.5em;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    width:fit-content;
+    padding: 1em;
+}
+.card {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #7FB7BE;
+}
+img {
+    margin: auto;
+    max-width: 100%;
 }
