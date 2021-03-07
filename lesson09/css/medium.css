@@ -79,19 +79,18 @@
 		display: inline-block;
 		text-align: center;
 	  }
-	  div.cards {
-        display: grid;
-	    grid-template-columns: 1fr 1fr;
-    }
-	div:nth-child(odd) img {
+	
+	div.cards {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	}
+	
+	div.cards:nth-child(odd) img {
 		grid-column: 2;
 	}
 	
-	div:nth-child(odd) .data {
+	div.cards:nth-child(odd) p {
 		grid-column: 1;
 		grid-row: 1;
 	}
-    .card {
-        margin: 0 auto;
-    }
 }
