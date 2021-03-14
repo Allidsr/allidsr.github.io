@@ -4,13 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Preston Town Page for Allison Aguirre in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-  <link href="css/lesson9.css" rel="stylesheet">
+  <link href="css/lesson10.css" rel="stylesheet">
   <link href="css/medium.css" rel="stylesheet">
   <link href="css/large.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="js/towns.js"></script>
-  <title>Home</title>
+  <title>Preston Town Page</title>
 </head>
 <body>
   <tl id="fri" display= "block"></tl>
@@ -26,8 +24,8 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="../lesson09/index.html" class="active">Home</a></li>
-            <li><a href="../lesson10/preston-10.html">Preston</a></li>
+            <li><a href="../lesson09/index.html">Home</a></li>
+            <li><a href="../lesson10/preston-10.html" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -35,25 +33,52 @@
         </ul>
     </nav>
 <main>
-    <h2>Welcome</h2>
+    <h2>Preston Idaho</h2>
  <div class="herodiv">
    <div class="hero-ph">
     <picture class="hero-img">
-      <source media="(max-width: 200px)" srcset="../lesson06/images/hero_200.jpg">
-        <source media="(max-width: 500px)" srcset="../lesson06/images/hero_500.jpg">
-        <source media="(max-width: 800px)" srcset="../lesson06/images/hero_800.jpg">
+      <source media="(max-width: 200px)" srcset="../lesson10/images/hero_200.jpg">
+      <source media="(max-width: 500px)" srcset="../lesson10/images/hero_500.jpg">
+      <source media="(max-width: 800px)" srcset="../lesson10/images/hero_800.jpg">
       <img src="images/optimized-image.jpg"></div>
   </picture>   
 <section class="weathersummary">
    <h3>Weather Summary</h3>
-   <p>Currently:Sunny</p>
-   <p>Temperature:76°F</p>
-   <p>Humidity:69%</p>
-   <p>Precipitation:0 inches</p>
-   <p>Wind Speed:5 mph</p>
+   <p>Currently:<span id="weather"></span></p>
+   <p>Temperature:<span id="temp"></span>&deg; F</p>
+   <p>Wind Chill:<span id="wind"></span>&deg; F</p>
+   <p>Humidity:<span id="humidity"></span>%</p>
+   <p>Wind Speed:<span id="speed"></span>mph</p> 
 </section>
 </div>
-  <div class="cards"></div>
+<h2>Five Days Forecast</h2>
+<div class="flex">
+	<div class="flex-col">
+		<span class="col-head">Wed</span>
+		<span id="image1"></span>&nbsp;<img src="" alt="" id="icon1">
+		<p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Thu</span>
+		<span id="image2"></span>&nbsp;<img src="" alt="" id="icon2">
+		<p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Fri</span>
+		<span id="image3"></span>&nbsp;<img src="" alt="" id="icon3">
+		<p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Sat</span>
+		<span id="image4"></span>&nbsp;<img src="" alt="" id="icon4">
+		<p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Sun</span>
+		<span id="image5"></span>&nbsp;<img src="" alt="" id="icon5">
+		<p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p>
+	</div>
+</div>
 <div class="article">
   <img class="img-article" src="images/pexels-mikhail-nilov-6526177.jpg">
   <h3>Russia's 'Dyatlov Pass' conspiracy theory may finally be solved 60 years later</h3>
@@ -105,5 +130,8 @@ allowfullscreen aria-hidden="false" tabindex="0"></iframe>
 <script src="js/day.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="js/webfontload.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/weatherapi.js"></script>
+<script src="js/forecast.js"></script>
 </body> 
 </html>
