@@ -26,17 +26,6 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.herodiv {
-		position: relative;
-		margin: 10px auto;
-		width: 750px;
-		height: 300px;
-	}
-	.hero-ph {
-		margin: 10px auto;
-		width: 98%;
-		height: 220px;
-	}
 
 	.weathersummary {
 		position: absolute;
@@ -69,11 +58,15 @@
 	.map {
 		display: inline-block;
 		margin: 5px 20px;
-
 	}
 	.contact-data {
 		display: inline-block;
 		margin: 5px 20px;
+	}
+	.paragraphF {
+		margin: 0 auto;
+		max-width: 100%;
+		padding: 1.5em 10em;
 	}
 	.social {
 		display: inline-block;
