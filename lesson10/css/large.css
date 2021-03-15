@@ -46,51 +46,6 @@
 		padding: .5rem;
 		opacity: .8;
 	}
-	
-    .flex {
-        display: flex;
-        /* flex-direction: row; */
-        /* let us combine row and wrap with flow */
-        flex-flow: row wrap;
-        margin: auto 3em ;
-        border-right: 1px solid #333;
-    }
-    
-    .flex-col {
-        border-bottom: 1px solid #333;
-        border-left: 1px solid #333;
-        text-align: center;
-        flex: 1 1 auto;
-    }
-    .flex-col:hover {
-        opacity: 0.75;
-        background-color: #7FB7BE;
-        color:black;
-    }
-    
-    .col-head {
-        display: block;
-        padding: 5px;
-        border-bottom: 1px solid #333;
-        text-align: center;
-    }
-    
-    .data {
-        display: block;
-        padding: 0 5px 5px;
-        font-size: 0.8rem;
-        text-align: center;
-    }
-    
-    .col-head {
-        font-weight: 700;
-        font-size: 1rem;
-        background-color:#7FB7BE;
-        color: black;
-    }
-    .sunny {
-        width:30px;
-    }
     .article {
 		display:block;
 		margin: 30px auto;
@@ -128,13 +83,11 @@
 		max-width: 100%;
 		padding: 1.5em 10em;
 	}
-	.gallery-img {
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns:  1fr 1fr 1fr;
+	.weather {
+        width: 1000px;
     }
-	.gallery-img picture img:hover {
-        box-shadow: 0 0 50px #333;
+	.forecast {
+        width: 60%;
     }
 }
 

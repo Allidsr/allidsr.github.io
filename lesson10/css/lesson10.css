@@ -121,47 +121,6 @@ p {
 	line-height: 1;
     font-size: 14px;
 }
-.flex {
-	display: flex;
-	/* flex-direction: row; */
-	/* let us combine row and wrap with flow */
-	flex-flow: row wrap;
-	margin: auto 3em ;
-	border-right: 1px solid #333;
-}
-
-.flex-col {
-	border-bottom: 1px solid #333;
-	border-left: 1px solid #333;
-	text-align: center;
-	flex: 1 1 auto;
-}
-.flex-col:hover {
-	opacity: 0.75;
-	background-color: #7FB7BE;
-	color:black;
-}
-
-.col-head {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #333;
-	text-align: center;
-}
-
-.data {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
-}
-
-.col-head {
-	font-weight: 700;
-	font-size: 1rem;
-	background-color:#7FB7BE;
-	color: black;
-}
 .article {
 	display:block;
 	margin: 30px auto;
@@ -193,28 +152,12 @@ picture.hero-ph {
     width: 96%;
     margin: 0 2%
 }
-.gallery-img {
-    margin: 0 auto;
-    display: grid;
-    
-}
-
-.gallery-img picture{
-    margin: 10px;
-    text-align: center;
-}
-
-.gallery-img picture img{
-    width: 90%;
-}
 figcaption{
     font-family: "Montserrat",sans-serif;
 }
-img[data-src] {
-    filter: blur(0.2em);
-}
-
-img {
-    filter: blur(0em);
-    transition: filter 1s;
-}
+.weather {
+    text-align: center;
+    width: 300px;
+    background-color: #7FB7BE;
+    margin: auto;
+	border: solid #CDCDCD 1px;}

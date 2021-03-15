@@ -15,6 +15,7 @@ fetch(fapiURL)
   document.getElementById(`forecast${day+1}`).textContent = jsObject.list[i].main.temp;
   const imagesource = `https://openweathermap.org/img/wn/${jsObject.list[i].weather[0].icon}.png`;
   const desc = jsObject.list[i].weather[0].description;
+  //document.getElementById(`image${day+1}`).textContent=imagesource;
   document.getElementById(`icon${day+1}`).setAttribute('src', imagesource);
   document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
       day++;
