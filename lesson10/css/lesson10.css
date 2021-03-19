@@ -99,10 +99,10 @@ h2 {text-align: center;
 	position: relative;
 	margin: 10px auto;
 }
-.hero-ph {
-	margin: 0 auto;
-	border: 1px;
-	width: 98%;
+picture.hero-ph {
+    display: block;
+    width: 96%;
+    margin: 0 2%
 }
 main img {
 	max-width: 100%;
@@ -147,11 +147,7 @@ p {
 	font-size: 28px;
 	padding: 1.5em;
 }
-picture.hero-ph {
-    display: block;
-    width: 96%;
-    margin: 0 2%
-}
+
 figcaption{
     font-family: "Montserrat",sans-serif;
 }

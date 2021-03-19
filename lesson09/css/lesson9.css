@@ -107,14 +107,6 @@ h2 {text-align: center;
 main img {
 	max-width: 100%;
 }
-
-.weathersummary {
-	display: block;
-	padding: 15px;
-	background-color: #FFF2F1;
-	color: #07090F;
-	font-size: 14px;
-}
 p {
 	padding: 0;
 	letter-spacing: 0.05rem;
