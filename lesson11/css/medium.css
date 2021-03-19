@@ -75,4 +75,22 @@
 	  .forecast {
         width: 80%;
     }
+	div.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	  }
+	  
+	  div.cards:nth-child(odd) img {
+		  grid-column: 2;
+	  }
+	  
+	  div.cards:nth-child(odd) p {
+		  grid-column: 1;
+		  grid-row: 1;
+	  }
+	  .gallery-img {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

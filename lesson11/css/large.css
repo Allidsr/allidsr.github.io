@@ -1,0 +1,38 @@
+ /* Desktop Views ****************************/
+ @media only screen and (min-width: 60em) {
+	header img {
+		width: 150px;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+	.map {
+		margin: 5px;
+	}
+	.contact-data {
+		margin: 5px;
+	}
+	.weather {
+        width: 1000px;
+    }
+	.forecast {
+        width: 60%;
+    }
+	div.cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+	form label.sbs{
+        padding: .4rem 0;
+    }
+	.gallery-img {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+	.gallery-img picture img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+}
+
