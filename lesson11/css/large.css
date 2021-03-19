@@ -34,5 +34,8 @@
 	.gallery-img picture img:hover {
         box-shadow: 0 0 50px #333;
     }
+	.weather{
+		width: 960px;
+	}
 }
 

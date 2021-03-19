@@ -72,9 +72,6 @@
 		display: inline-block;
 		text-align: center;
 	  }
-	  .forecast {
-        width: 80%;
-    }
 	div.cards {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -93,4 +90,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+	.forecast-box {
+		display: grid;
+	}
+	.weather{
+		width: 100%;
+		height: auto;
+	}
 }
