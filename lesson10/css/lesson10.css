@@ -15,18 +15,18 @@ nav {
 	max-width: 100%;
 	background-color: #07090F;
 }
-.navigation {
+nav ul {
     list-style: none;
     text-align: center;
 	padding: 0;
 }
-.navigation li:first-child {
+nav li:first-child {
 	display: block;
 }
-.navigation li {
+nav li {
 	display: none;
 }
-.navigation a {
+nav ul li a {
 	display: block;
 	padding: 0.75rem;
 	text-align: center;
@@ -34,7 +34,8 @@ nav {
 	color: white;
 	font-weight: 700;
 }
-.navigation a:hover {
+
+nav a:hover {
 	color: #343E3D;
 	background-color: #FFF2F1;
 }
@@ -156,7 +157,8 @@ figcaption{
 }
 .weather {
     text-align: center;
-    width: 300px;
+	width:275px;
     background-color: #7FB7BE;
     margin: auto;
-	border: solid black 1px;}
+	border: solid black 1px;
+}
