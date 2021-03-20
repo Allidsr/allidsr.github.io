@@ -94,7 +94,7 @@ header img {
 	font-size: .9rem;
 }
 
-h2 {text-align: center;
+h1, h2, h3 {text-align: center;
 }
 .herodiv {
 	position: relative;
@@ -112,7 +112,7 @@ main img {
 .weathersummary {
 	display: block;
 	padding: 15px;
-	background-color: #FFF2F1;
+	background-color: #DACC3E;
 	color: #07090F;
 	font-size: 14px;
 }
@@ -129,7 +129,7 @@ p {
 	background-color: #FFF2F1;
 	color: #07090F;
 	text-align: left;
-    border: solid #CDCDCD 1px; }
+}
 .img-article {
 	max-width: 100%;
 }
@@ -152,28 +152,21 @@ p {
 figcaption{
     font-family: "Montserrat",sans-serif;
 }
-.weather {
-    text-align: center;
-	width:275px;
-    background-color: #7FB7BE;
-    margin: auto;
-	border: solid black 1px;
-}
+
 div.cards {
     margin: 0 auto;
     display: block;
     gap:.5em;
     text-align: center;
-    border: 1px solid #CDCDCD;
     background-color:#FFF2F1;
     width:fit-content;
     padding: 1em;
 }
 .card {
-    border: 1px solid #CDCDCD;
     padding: 1em;
     margin: 1em auto;
     background-color: #7FB7BE;
+    border-radius: 5px;
 }
 img {
     margin: auto;
@@ -288,5 +281,9 @@ img {
 }
 .forecast-box {
     display: none;
+}
+.prestonEvents, .sodaEvents, .fishEvents {
+    background-color: #FFF2F1;
+    padding: 20px;
 }
 

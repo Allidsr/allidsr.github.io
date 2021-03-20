@@ -31,7 +31,7 @@
 		position: absolute;
 		top: 20px;
 		left: 50px;
-		background: #FFF2F1;
+		background: #DACC3E;
 		padding: .5rem;
 		opacity: .8;
 	}
@@ -97,4 +97,25 @@
 		width: 100%;
 		height: auto;
 	}
+table { 	
+	margin:50px auto;
+    border-spacing: 0px;
+    background-color: #FFF2F1;
+    font-family: "Lora", Helvetica, sans-serif;
+}
+
+td,th {
+    border: 1px solid #e6dddd;
+    padding: 7px;
+    text-align: center;
+  }
+
+th {
+    font-size: 2em;
+}
+
+td {
+    font-size: 1.5em;
+    font-family: "Montserrat",sans-serif;
+}  
 }

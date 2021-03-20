@@ -2,7 +2,7 @@ const fapiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&APP
 fetch(fapiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-  console.log(jsObject);
+  //console.log(jsObject);
   let day = 0;
   for(let i=0; i<40; i++){
   
