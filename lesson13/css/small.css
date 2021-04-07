@@ -1,0 +1,290 @@
+header, nav {
+	font-size: 14px;
+	font-family: "Archivo", Lucida Sans Unicode, sans-serif;
+}
+main, footer {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+main
+ {
+	max-width: 960px;
+    margin: 0 auto;
+}
+nav {
+	max-width: 100%;
+	background-color: #FFF2F1;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+	padding: 0;
+    margin: 0;
+}
+nav li:first-child {
+	display: block;
+}
+nav li {
+	display: none;
+}
+nav ul li a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+nav a:hover {
+	color: #0E254F;
+	background-color: #FFFFFF;
+}
+.responsive li {
+	display: block;
+}
+li .active {
+	color: #FFFFFF;
+    background-color: #9E2E60;
+}
+
+body {
+	padding: 0;
+	margin: 0 auto;
+}
+
+header {
+	max-width: 100%;
+    margin: 0 auto;	
+	background-color: #FFFFFF;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+}
+
+footer {
+	max-width: 100%;
+	margin: 0 auto;	
+	display: block;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #0E254F;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+h1, h2, h3 {text-align: center;
+    color: #0E254F;
+}
+.herodiv {
+	position: relative;
+	margin: 10px auto;
+}
+picture.hero-ph {
+    display: block;
+    width: 96%;
+    margin: 0 2%
+}
+main img {
+	max-width: 100%;
+}
+
+.weathersummary {
+	display: block;
+	padding: 15px;
+	background-color: #0E254F;
+	color: white;
+	font-size: 14px;
+}
+.whiteh {
+    color: white;
+}
+p {
+	padding: 0;
+	letter-spacing: 0.05rem;
+	line-height: 1;
+    font-size: 14px;
+}
+.purpose {
+	display:block;
+	margin: 30px auto;
+	padding: 15px;
+	text-align: left;
+}
+.events {
+padding: 10px;
+color: black;
+border-radius: 5px;
+}
+.contact {
+	background-color: #0E254F;
+	color: white;
+}
+
+.map {
+	padding: 10px;
+}
+.promo {
+	display:block;
+	background-color: #dad171;
+	text-align: center;
+	font-size: 28px;
+	padding: 1.5em;
+}
+
+figcaption{
+    font-family: "Montserrat",sans-serif;
+}
+
+div.cards {
+    margin: 0 auto;
+    display: block;
+    gap:.5em;
+    text-align: center;
+    background-color:#FFF2F1;
+    width:fit-content;
+    padding: 1em;
+}
+.card {
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #7FB7BE;
+    border-radius: 5px;
+}
+img {
+    margin: auto;
+    max-width: 100%;
+}
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+form legend{
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+form fieldset div{
+    text-align:left;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs{
+    display:block;
+    padding: .75rem 0;
+    color: #555;
+
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: #9c2c13 solid 6px;
+
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} 
+input[type="number"] { 
+    -moz-appearance:textfield; 
+  } 
+
+
+.flexly {
+	display: flex;
+	align-items: center;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+	color: #2075ff;
+}
+.local {
+    margin: 0;
+    display: grid;
+}
+
+.local picture{
+    margin: 10px;
+    text-align: center;
+}
+.local picture img {
+    border-radius: 5px;
+}
+
+figcaption{
+    font-family: "Open Sans",sans-serif;
+}
+
+.forecast-box {
+    display: none;
+}
+.p-contact {
+    text-align: center;
+}
+.join {
+    color: #9c2c13;
+}
+iframe {
+    max-width: 100%;
+}

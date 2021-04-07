@@ -1,0 +1,60 @@
+{
+    "directory": [
+      {
+        "name": "Cambalache",
+        "description":"Argentine Restaurant in Mexico; Prime quality meat cuts, and the best fish and wines, since 1986.",
+        "phone": 7222114001,
+        "e-mail": "grupos.toluca@cambalacherestaurantes.com",
+        "url": "https://www.cambalacherestaurantes.com/#inicio",
+        "logo": "http://2.bp.blogspot.com/-lRNN6wnSwdg/UJFoJqO1n-I/AAAAAAAAJbk/pUSBeU1mcW4/s1600/Logo+1.jpg"
+      },
+      {
+        "name": "Bistro Mecha Primero de Mayo",
+        "description": "Pizza Mecha is transformed into Bistro Mecha. Meet our new concept with a renewed menu and the classic style that distinguishes us.",
+        "phone": 7223184535,
+        "e-mail": "primero.mayo@bistromecha.com.mx",
+        "url": "http://bistromecha.com.mx/?fbclid=IwAR2BUEHE59iVlAEbhdf0mPEF_s7PxX-JRTQg7vlvmB1vhsfcp_6eeXvG1eY",
+        "logo": "https://tools.fidelitymkt.com/fidelityerp/img/merchant/logo/24645/bistromechalogo600x400.png"
+      },
+      {
+        "name": "Cuoco",
+        "description": "Kitchens and furniture to give a touch of personality to your home or office.",
+        "phone": 7222368692,
+        "e-mail": "ventas@cuoco.mx",
+        "url": "https://cuoco.mx/",
+        "logo": "https://lh3.googleusercontent.com/Fye8zRsJt8WKFG1jDwlJdVm18IA0HwyotTgj5yYBm5nzxfmr8tRQQ-vnIt7cJuNfLFTbnNLU=w1080-h608-p-no-v0"   
+      },
+      {
+        "name": "Cambalache",
+        "description": "Argentine Restaurant in Mexico; Prime quality meat cuts, and the best fish and wines, since 1986.",
+        "phone": "7222114001",
+        "e-mail": "grupos.toluca@cambalacherestaurantes.com",
+        "url": "https://www.cambalacherestaurantes.com/#inicio",
+        "logo": "http://2.bp.blogspot.com/-lRNN6wnSwdg/UJFoJqO1n-I/AAAAAAAAJbk/pUSBeU1mcW4/s1600/Logo+1.jpg"
+      },
+      {
+        "name": "Cambalache",
+        "description":"Argentine Restaurant in Mexico; Prime quality meat cuts, and the best fish and wines, since 1986.",
+        "phone": "7222114001",
+        "e-mail": "grupos.toluca@cambalacherestaurantes.com",
+        "url": "https://www.cambalacherestaurantes.com/#inicio",
+        "logo": "http://2.bp.blogspot.com/-lRNN6wnSwdg/UJFoJqO1n-I/AAAAAAAAJbk/pUSBeU1mcW4/s1600/Logo+1.jpg"
+      },
+      {
+        "name": "Cambalache",
+        "description":"Argentine Restaurant in Mexico; Prime quality meat cuts, and the best fish and wines, since 1986.",
+        "phone": "7222114001",
+        "e-mail": "grupos.toluca@cambalacherestaurantes.com",
+        "url": "https://www.cambalacherestaurantes.com/#inicio",
+        "logo": "http://2.bp.blogspot.com/-lRNN6wnSwdg/UJFoJqO1n-I/AAAAAAAAJbk/pUSBeU1mcW4/s1600/Logo+1.jpg"
+      },
+      {
+        "name": "Cambalache",
+        "description":"Argentine Restaurant in Mexico; Prime quality meat cuts, and the best fish and wines, since 1986.",
+        "phone": "7222114001",
+        "e-mail": "grupos.toluca@cambalacherestaurantes.com",
+        "url": "https://www.cambalacherestaurantes.com/#inicio",
+        "logo": "http://2.bp.blogspot.com/-lRNN6wnSwdg/UJFoJqO1n-I/AAAAAAAAJbk/pUSBeU1mcW4/s1600/Logo+1.jpg"
+      }
+    ]
+}

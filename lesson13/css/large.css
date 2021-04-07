@@ -1,0 +1,37 @@
+ /* Desktop Views ****************************/
+ @media only screen and (min-width: 60em) {
+	header img {
+		width: 150px;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+	.map {
+		margin: 5px;
+	}
+	.contact-data {
+		margin: 5px;
+	}
+	.weather {
+        width: 1000px;
+    }
+	.forecast {
+        width: 60%;
+    }
+	form label.sbs{
+        padding: .4rem 0;
+    }
+	.local {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+	.weather{
+		width: 960px;
+	}
+	iframe {
+		width: 500px;
+	}
+}
+

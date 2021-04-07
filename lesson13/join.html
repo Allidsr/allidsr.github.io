@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Toluca Chamber of Commerce Home Page for Allison Aguirre in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Join</title>
+</head>
+<body>
+<header>
+  <picture>
+  <a href="index.html"><img src="images/logo.png" alt="Toluca chamber of commerce logo"></a>
+  </picture>
+  <section class="headings">
+    <h1>Toluca Chamber of Commerce</h1>
+    <div class="m">Businesses of Mexico</div>
+</section>
+</header>
+    <nav>
+        <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="../lesson13/index.html">Home</a></li>
+          <li><a href="../lesson13/city.html">City</a></li>
+          <li><a href="../lesson13/directory.html">Directory</a></li>
+          <li><a href="../lesson13/contact.html">Contact</a></li>
+          <li><a href="../lesson13/join.html" class="join">Join</a></li>
+        </ul>
+    </nav>
+<main>
+    <h2>Why Join Us?</h2>
+    <p>You have to find ways to permeate your brand into the community so consumers know who you are and what you offer. With a Chamber of Commerce membership, you gain resources that make this much easier.</p>
+    <form  method="get" action="thanks.html">
+      <fieldset>
+        <legend>Membership Application Form</legend>
+        <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label>
+        <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{5,}" required></label>
+        <label class="top">Email* <input type="email" name="email" placeholder="someone@pmail.com" required></label>
+        <label class="top">Cell Phone <input type="tel" name="phone" placeholder="999999999"></label>
+        <label class="top">Business Name*<input type="text" name="busname" required ></label>
+        <label class="top">Business Address<input type="text" name="address"></label>
+        <label class="top">Business Website<input type="text" name="website"></label>
+        <label class="top">Business Description<input type="text" name="description"></label>
+        <label class="top">Membership Level<input type="text" list="datalist" name="member"></label>
+        <datalist id="datalist">
+            <option value="Non-profit ($100)"></option>
+            <option value="Bronze ($200)"></option>
+            <option value="Silver ($400)"></option>
+            <option value="Gold ($1000)"></option>
+        </datalist>
+      </fieldset>
+        <input type="submit" value="Apply" class="submitBtn">
+    </form>
+</main>
+<footer>
+  <div class="contact">
+    <div class="contact-data">
+      <h3 class="whiteh">Contact Information</h3>
+      <p>999-999-999</p>
+      <p>tolucachamber@edomex.com</p>
+      <div class="social">
+        <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.jpg" alt="facebook icon" style="width:50px" ></a>
+        <a target="_blank" href="https://www.instagram.com"><img src="images/instagram.jpg" alt="instagram icon" style="width:50px" ></a>
+        <a target="_blank" href="https://www.twitter.com"><img src="images/twitter.jpg" alt="twitter icon" style="width:50px"></a>
+      </div>      
+    </div>
+  </div>
+    <div class="paragraphF">
+      <p>&copy; Toluca Chamber of Commerce | BYUI Online Learning | Allison Aguirre</p>
+    <span id="currentdate"></span>
+    <script src="js/date.js"></script>
+  </div>
+</footer>
+<script src="js/toggleMenu.js"></script>
+<script src="js/day.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+</body> 
+</html>

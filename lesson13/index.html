@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Toluca Chamber of Commerce Home Page for Allison Aguirre in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/weatherapi.js"></script>
+  <script src="js/forecast.js"></script>
+  <title>Home</title>
+</head>
+<body>
+<header>
+  <picture>
+  <a href="index.html"><img src="images/logo.png" alt="Toluca chamber of commerce logo"></a>
+  </picture>
+  <section class="headings">
+    <h1>Toluca Chamber of Commerce</h1>
+    <div class="m">Businesses of Mexico</div>
+</section>
+</header>
+    <nav>
+        <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="../lesson11/index.html" class="active">Home</a></li>
+          <li><a href="../lesson13/city.html">City</a></li>
+          <li><a href="../lesson13/directory.html">Directory</a></li>
+          <li><a href="../lesson13/contact.html">Contact</a></li>
+          <li><a href="../lesson13/join.html" class="join">Join</a></li>
+        </ul>
+    </nav>
+<main>
+ <div class="herodiv">
+   <div class="hero-ph">
+    <picture class="hero-img">
+      <source media="(max-width: 200px)" srcset="images/hero_200.jpg" alt="hero image">
+        <source media="(max-width: 500px)" srcset="images/hero_500.jpg" alt="hero image">
+        <source media="(max-width: 800px)" srcset="images/hero_800.jpg" alt="hero image">
+      <img src="images/heroimg.jpg"></div>
+  </picture>  
+  <section class="weathersummary">
+    <h3 class="whiteh">Weather Summary</h3>
+    <p><b>Currently: </b> <span id="weather"></span></p>
+    <p><b>Temperature: </b><span id="temp"></span>&deg; F</p>
+    <p><b>Wind Chill: </b><span id="wind"></span>&deg; F</p>
+    <p><b>Humidity: </b><span id="humidity"></span>%</p>
+    <p><b>Wind Speed: </b><span id="speed"></span>mph</p> 
+    </section>
+</div>
+<div class="forecast-box">
+  <h2>5 Day Forecast</h2>
+  <table class="weather">
+    <tr>
+      <th><p><span id="dayofWeek1"></span>: <span id="forecast1"></span>&deg; F</p></th>
+      <th><p><span id="dayofWeek2"></span>: <span id="forecast2"></span>&deg; F</p></th>
+      <th><p><span id="dayofWeek3"></span>: <span id="forecast3"></span>&deg; F</p></th>
+      </tr>
+   <tr>
+      <td><p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p></td>
+      <td><p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p></td>
+      <td><p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p></td>
+    </tr>
+  </table>
+</div>
+<h2>Local Companies</h2>
+  <div class="local">
+    <picture><img src="images/laconstancia.jpg">
+    <figcaption><b>La Constancia</b><br>Coffee culture with current methods of specialty extraction, crafts from the best creatives in the State of Mexico, healthy and sustainable gastronomy.</figcaption>
+  </picture>
+    <picture><img src="images/marietalinda.jpg">
+    <figcaption><b>Marieta Linda</b><br>Accessories for pets and people decorated with typical Mexican motifs, working in collaboration with representative communities of our beloved Mexico.</figcaption></picture>
+    <picture><img src="images/la-botticella.jpg">
+    <figcaption><b>La Botticella</b><br>The only restaurant with artisan Italian cuisine in Toluca, live jazz, theater and of course the most beautiful place in the city.</figcaption></picture>
+  </div>
+<div class="purpose">
+<h2>What is our purpose?</h2>
+<p>The main purpose of <b>tolucachamber.com.mx</b> web site is to help its members in a few different ways. Providing online resources aimed at educating members about various aspects of running a business, from finding office space to reaching customers online, announcing host in-person networking events or promotions designed to spur business growth in the area. Members can often access helpful resources, expertise from other members and even discounts and exclusive opportunities from local vendors.</p>
+</div>
+<div class="events">
+<h2>Upcoming Events</h2>
+<p><b>April 7:</b> Ixtapan de La Sal Reading Circle Let's have coffee and talk about books.</p>
+<p><b>April 24:</b> Workshop RE-Imagine your professional future playing with Lego.</p>
+<p><b>April 30:</b> 2nd Meeting Peniel.</p>
+</div>
+</main>
+<footer>
+  <div class="contact">
+    <div class="contact-data">
+      <h3 class="whiteh">Contact Information</h3>
+      <p>999-999-999</p>
+      <p>tolucachamber@edomex.com</p>
+      <div class="social">
+        <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.jpg" alt="facebook icon" style="width:50px" ></a>
+        <a target="_blank" href="https://www.instagram.com"><img src="images/instagram.jpg" alt="instagram icon" style="width:50px" ></a>
+        <a target="_blank" href="https://www.twitter.com"><img src="images/twitter.jpg" alt="twitter icon" style="width:50px"></a>
+      </div>      
+    </div>
+  </div>
+    <div class="paragraphF">
+      <p>&copy; Toluca Chamber of Commerce | BYUI Online Learning | Allison Aguirre</p>
+    <span id="currentdate"></span>
+    <script src="js/date.js"></script>
+  </div>
+</footer>
+<script src="js/toggleMenu.js"></script>
+<script src="js/day.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+</body> 
+</html>
