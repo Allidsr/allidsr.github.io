@@ -107,10 +107,6 @@ picture.hero-ph {
     width: 96%;
     margin: 0 2%
 }
-main img {
-	max-width: 100%;
-}
-
 .weathersummary {
 	display: block;
 	padding: 15px;
@@ -141,21 +137,6 @@ border-radius: 5px;
 .contact {
 	background-color: #0E254F;
 	color: white;
-}
-
-.map {
-	padding: 10px;
-}
-.promo {
-	display:block;
-	background-color: #dad171;
-	text-align: center;
-	font-size: 28px;
-	padding: 1.5em;
-}
-
-figcaption{
-    font-family: "Montserrat",sans-serif;
 }
 
 div.cards {
