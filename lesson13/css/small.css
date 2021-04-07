@@ -163,15 +163,17 @@ div.cards {
     display: block;
     gap:.5em;
     text-align: center;
-    background-color:#FFF2F1;
     width:fit-content;
     padding: 1em;
 }
 .card {
     padding: 1em;
     margin: 1em auto;
-    background-color: #7FB7BE;
+    background-color: #808C99;
     border-radius: 5px;
+}
+.card img {
+    width: 60%;
 }
 img {
     margin: auto;

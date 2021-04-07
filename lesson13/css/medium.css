@@ -94,4 +94,8 @@ iframe {
 	margin: 20px;
 	width: 350px;
 }
+div.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  }
 }
